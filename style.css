@@ -4,7 +4,7 @@
  Author:       Elyse Kolker Gordon
  Author URI:   http://sfdrummerjs.com
  Template:     Divi
- Version:      1.0.1
+ Version:      1.0.3
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -12,7 +12,19 @@
 @media (min-width: 981px) {
     .tag-line {
         position: relative;
-        margin-top: -83px;
-        padding-bottom: 55px;
+        margin-top: -82px;
+        margin-bottom: 40px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: #575757;
+    }
+
+    .et-fixed-header .tag-line {
+        display: none;
+    }
+
+    .about-us-home {
+        font-size: 12px;
+        line-height: 13px;
     }
 }
