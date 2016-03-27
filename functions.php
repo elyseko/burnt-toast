@@ -6,6 +6,6 @@ function theme_enqueue_styles() {
 }
 add_action('et_header_top', 'add_tag_line');
 function add_tag_line() {
-     echo '<div class="tag-line">tag line. goes here. yeah a tag line.</div>' . "\n";
+     echo '<div class="tag-line">Healthy Recipes. Mindful cooking. Heartfelt stories.</div>';
 }
 ?>
